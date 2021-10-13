@@ -142,6 +142,8 @@ export const PaymentScreen: React.FC<Props> = ({ navigation }) => {
               ...styles.textInput,
               marginTop: 20,
             }}
+            keyboardType="default"
+            autoCorrect={false}
             placeholder="Nombre del titular"
             placeholderTextColor="#9C9C9C"
             onChangeText={text => onChangeField(text, 'owner')}

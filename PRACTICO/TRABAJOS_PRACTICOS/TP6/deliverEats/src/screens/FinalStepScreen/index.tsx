@@ -97,7 +97,7 @@ export const FinalStepScreen: React.FC<Props> = ({
       <View style={styles.checkboxContainer}>
         <CheckBox
           onValueChange={newValue => setAsapCheckbox(newValue)}
-          value={deliveryTime === 'asap'}
+          value={asapCheckBox}
           onAnimationType="bounce"
           offAnimationType="bounce"
         />
