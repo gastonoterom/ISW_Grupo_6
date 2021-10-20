@@ -25,7 +25,7 @@ export const FinalStepScreen: React.FC<Props> = ({
     cardInformation,
   } = useSelector((state: AppState) => state.orderReducer);
 
-  const [asapCheckBox, setAsapCheckbox] = useState<boolean>(false);
+  const [asapCheckBox, setAsapCheckbox] = useState<boolean>(true);
 
   const [deliveryDeadline, setDeliveryDeadline] = useState<Date>(new Date());
 
